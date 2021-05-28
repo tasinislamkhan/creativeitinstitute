@@ -1,0 +1,340 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    outline: 0%;
+}
+.headerHolder{
+    width: 100%;
+}
+.float_fixer{
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: sans-serif;
+}
+
+.headerHolder .upperBorder{
+    width: 100%;
+    height: 4px;
+    background-color: #EE2E24;
+}
+.fullHeader{
+    width: 1140px;
+    height: 164px;
+    margin: 0% auto;
+}
+.fullHeader .logoPart{
+    width: 50%;
+    height: 124px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+.fullHeader .contactPart{
+    width: 48%;
+    height: 104px;
+    float: right;
+    margin-top: 60px;
+}
+.fullHeader .contactPart p{
+    font-family: Arimo,sans-serif;
+    font-size: 16px;
+    color: #444;
+    margin-left: 12px;
+    margin-top: 3px;
+    
+}
+.fullHeader .contactPart .numberPart .number_icon{
+    float: left;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 4;
+    margin-left: -9px;
+    margin-top: -4px;
+    border-radius: 50%;
+    background-color: #EE2E24;
+}
+.fullHeader .contactPart .emailPart .email_icon{
+    float: left;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 4;
+    margin-left: 43px;
+    margin-top: -4px;
+    border-radius: 50%;
+    background-color: #EE2E24;
+}
+.fullHeader .contactPart .numberPart .number_text{
+    float: left;
+}
+.fullHeader .contactPart .emailPart .email_icon{
+    float: left;
+}
+.fullHeader .contactPart .emailPart .email_text{
+    float: left;
+}
+
+nav#mainMenu{
+    background: white;
+    box-shadow: 3px 6px 19px 4px rgba(83, 46, 43, 0.08);
+    text-align: center;
+}
+nav#mainMenu ul li{
+    display: inline-block;
+    padding: 15px 7px;
+}
+nav#mainMenu ul li a{
+    display: inline-block;
+    padding: 10px;
+    color: #444;
+    font-size: 19px;
+}
+nav#mainMenu ul li:hover >a{
+    color: #EE2E24;
+    transition:all linear .3s;
+}
+nav#mainMenu ul #seminarStyle{
+    background: #EE2E24;
+}
+nav#mainMenu ul #seminarStyle a{
+    color: white;
+}
+nav#mainMenu ul #homeStyle a{
+    color: #EE2E24;
+}
+nav#mainMenu ul li ul{
+    width: 250px;
+    height: auto;
+    background: white;
+    position: absolute;
+    text-align: left;
+    opacity: 0;
+    visibility: hidden;
+    border-bottom: 1px solid red;
+    border-left: 1px solid #dcdcdc7a;
+    border-right: 1px solid #dcdcdc7a;
+    border-radius: 3px;
+    top: 25%;
+    transition: all linear .4s;
+}
+nav#mainMenu ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    top: 33%;
+}
+nav#mainMenu ul li ul li{
+    display: block;
+    padding: 0px;
+}
+
+.slider img{
+    width: 1349px;
+    height: 445px;
+}
+
+#aboutArea{
+    width: 1140px;
+    margin: 0 auto;
+    height: 152px;
+    text-decoration: none;
+    align-items: flex-end;
+    box-shadow: 3px 6px 19px 4px rgba(83, 46, 43, 0.08)
+}
+#aboutArea .areaItem{
+    height: 100%;
+    width: 25%;
+    background-color: #F6F6F6;
+    float: left;
+    text-align: center;
+}
+#aboutArea .areaItem a{
+    text-decoration: none;
+}
+#aboutArea .areaItem p:hover{
+    color: #EE2E24;
+}
+#aboutArea .areaItem a:hover{
+    color: #EE2E24;
+}
+#aboutArea .areaItem .aboutLogo{
+    height: 50%;
+    margin-top: 30px;
+}
+#aboutArea .areaItem .aboutText{
+    height: 50%;
+    margin-top: 0px;
+    font-family: Arimo,sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #444;
+    text-transform: uppercase;
+}
+
+.welcomeText{
+    width: 1140px;
+    height: 100px;
+    margin: 0 auto;
+    text-decoration: none;
+}
+.welcomeText a{
+    color: red;
+}
+#dcrText1{
+    height: 100px;
+    width: 1040px;
+    padding-top: 45px;
+    padding-left: 160px;
+    margin-bottom: -43px;
+    font-size: 30px;
+    color: #222;
+    font-family: Montserrat,sans-serif;
+}
+#dcrText2{
+    font-family: Arimo,sans-serif;
+    font-size: 18px!important;
+    color: #444;
+    text-align: justify;
+    line-height: 1.5;
+}
+#dcrText3{
+    font-family: Arimo,sans-serif;
+    font-size: 18px!important;
+    color: #444;
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+#courseListTag{
+    height: 145px;
+    width: 823px;
+    margin-top: 290px;
+    margin-left: 520px;
+}
+#courseListTag #tagText p{
+    display: inline-block;
+    font-family: Arimo,sans-serif;
+    color: #5b6b80;
+    font-size: 32px;
+    font-weight: 400;
+    margin-left: 67px;
+}
+#border{
+    width: 52px;
+    height: 2px;
+    background-color: #DDDDDD;
+    margin-left: 133px;
+    margin-top: 10px;
+}
+#tagP{
+    font-family: Arimo,sans-serif;
+    color: #777;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 12px;
+    margin-left: -35px;
+}
+#ourCourses{
+    width: 1140px;
+    height: 382px;
+    margin: 60px auto 20px;
+}
+#ourCourses #courseList{
+    height: 382px;
+    width: 373px;
+    float: left;
+    border-left: 1px solid #DCDCDC;
+    border-top: 1px solid #DCDCDC;
+}
+#ourCourses #courseDefinition{
+    height: 381px;
+    width: 461px;
+    margin-left: 6px;
+    background-color: #F5F5F5;
+    float: left;
+    border-top: 1px solid #DCDCDC;
+    border-bottom: 1px solid #DCDCDC;
+    border-left: 1px solid #DCDCDC;
+}
+#ourCourses #courseRelatedBanner{
+    height: 381px;
+    width: 298px;
+    float: left;
+    border-top: 1px solid #DCDCDC;
+    border-bottom: 1px solid #DCDCDC;
+}
+.courseListItem{
+    width: 123px;
+    height: 126.2px;
+    background-color: white;
+    float: left;
+    border-bottom: 1px solid #DCDCDC;
+    border-right: 1px solid #DCDCDC;
+}
+#courseTag{
+    font-size: 24px;
+    color: #222;
+    font-weight: 400;
+    margin-top: 59px;
+    margin-left: 30px;
+    font-family: Arimo,sans-serif;
+    padding-bottom: 20px;
+}
+#explainText{
+    font-size: 16px;
+    color: #444;
+    font-weight: 400;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: Arimo,sans-serif;
+    line-height: 28px;
+}
+#readMore{
+    height: 20px;
+    width: 50px;
+    margin-top: 14px;
+    margin-left: 30px;
+    font-size: 20px;
+    color: #ee2e24;
+    font-weight: 400;
+    font-family: Arimo,sans-serif;
+}
+#ourCourses #admissionGoingOn{
+    width: 270px;
+    height: 50px;
+    margin-top: 36px;
+    color: white;
+    background-color: #49596d;
+    border-radius: 0 46px 46px 0;
+}
+#admssinOnLogo{
+    display: inline-block;
+    float: left;
+}
+#admssinOnLogo p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arimo,sans-serif;
+    margin: 5px;
+}
+#admssinOnLogo{
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-right: -40px;
+}
+#admissionGoingOnP{
+    text-align: center;
+    line-height: 1.3cm;
+}
+
+#othrCourses{
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    margin: 10px auto;
+}
