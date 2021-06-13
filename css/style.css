@@ -81,7 +81,7 @@ body{
 
 nav#mainMenu{
     background: white;
-    box-shadow: 3px 6px 19px 4px rgba(83, 46, 43, 0.08);
+    box-shadow: 3px 6px 20px 12px rgba(83, 46, 43, 0.08);
     text-align: center;
 }
 nav#mainMenu ul li{
@@ -131,10 +131,16 @@ nav#mainMenu ul li ul li{
     display: block;
     padding: 0px;
 }
-
-.slider img{
-    width: 1349px;
+.sliderPart{
+    position: relative;
+}
+.slick-track{
+    transform: none;
+}
+.sliderPart .slidr_img{
     height: 445px;
+    background-size: cover !important;
+    background-position: center !important;
 }
 
 #aboutArea{
@@ -143,7 +149,7 @@ nav#mainMenu ul li ul li{
     height: 152px;
     text-decoration: none;
     align-items: flex-end;
-    box-shadow: 3px 6px 19px 4px rgba(83, 46, 43, 0.08)
+    box-shadow: 3px 6px 19px 10px rgba(83, 46, 43, 0.08)
 }
 #aboutArea .areaItem{
     height: 100%;
@@ -275,6 +281,17 @@ nav#mainMenu ul li ul li{
     float: left;
     border-bottom: 1px solid #DCDCDC;
     border-right: 1px solid #DCDCDC;
+}
+.course_list_item_logo{
+    height: 98px;
+    width: 100%;
+    margin-top: 14px;
+}
+.course_list_item_tag p{
+    color: #444;
+    font-size: 14px;
+    margin-top: -20px;
+    text-align: center;
 }
 #courseTag{
     font-size: 24px;
