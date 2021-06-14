@@ -282,6 +282,9 @@ nav#mainMenu ul li ul li{
     border-bottom: 1px solid #DCDCDC;
     border-right: 1px solid #DCDCDC;
 }
+.courseListItem:hover{
+    background-color: #EE2E24;
+}
 .course_list_item_logo{
     height: 98px;
     width: 100%;
@@ -292,6 +295,9 @@ nav#mainMenu ul li ul li{
     font-size: 14px;
     margin-top: -20px;
     text-align: center;
+}
+.course_list_item_tag p:hover{
+    color: white;
 }
 #courseTag{
     font-size: 24px;
@@ -348,10 +354,17 @@ nav#mainMenu ul li ul li{
     text-align: center;
     line-height: 1.3cm;
 }
-
 #othrCourses{
+    text-align: center;
+    padding-top: 35px;
+}
+#othrCourses a{
     width: 100px;
     height: 30px;
-    background-color: red;
-    margin: 10px auto;
+    background-color: #e9252b;
+    padding: 12px 30px;
+    border-radius: 56px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #fff;
 }
