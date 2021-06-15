@@ -327,6 +327,9 @@ nav#mainMenu ul li ul li{
     font-weight: 400;
     font-family: Arimo,sans-serif;
 }
+#readMore a{
+    color: #ee2e24;
+}
 #ourCourses #admissionGoingOn{
     width: 270px;
     height: 50px;
