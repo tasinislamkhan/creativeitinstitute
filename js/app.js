@@ -1,7 +1,10 @@
 $(function () {
     //slidrPart
     $('.sliderPart').slick({
-        autoplay: true,
-        autoplaySpeed: 5000,
+        arrows:false,
+        autoplay:true,
+        fade:true,
+        autoplaySpeed:1000,
+        speed:2000,
     });
 })
